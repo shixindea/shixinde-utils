@@ -11,3 +11,13 @@ export function isNumber(value: string) {
 		return true;
 	}
 }
+
+
+/**
+ * 类型判断字符是不是  空对象
+ * @param value 
+ * @returns 
+ */
+export function isNullObject(value: Object) {
+	return Object.keys(value).length === 0;
+}
