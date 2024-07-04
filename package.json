@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "dev": "vite",
+    "gitcz": "git-cz",
     "start": "vite",
     "test": "jest --verbose",
     "build": "vite build",
