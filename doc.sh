@@ -1,9 +1,18 @@
 
+rm -rf ./docs/
 
-rm -rf dist
+pnpm docs:build
 
-npm run build
+mkdir docs
 
-npm version patch
+scp -r ./public/* ./docs/
 
-npm publish
+wait
+
+rm -rf ./public/
+
+git add .
+
+git commit -m "update docs"
+
+git push

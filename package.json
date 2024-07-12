@@ -17,8 +17,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "release": "rm -rf dist && npm run build &&npm version patch && npm publish",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs-vuepress",
+    "docs:build": "vuepress build docs-vuepress"
   },
   "config": {
     "commitizen": {
