@@ -5,11 +5,7 @@
  */
 export function isNumber(value: string) {
 	var patrn = /^[0-9]*$/;
-	if (patrn.exec(value) == null || value == "") {
-		return false;
-	} else {
-		return true;
-	}
+	return !(patrn.exec(value) == null || value == "")
 }
 
 

@@ -2,21 +2,21 @@ import * as theCheck from '../src/check-validate'
 
 
 // 测试 check-validate 中的函数
-describe('my-app:checkNum', () => {
-    test('checkNum(): true', () => {
+describe('my-app:isNullObject', () => {
+    test('isNullObject(): true', () => {
         expect(
             theCheck.checkNum('11111')
         ).toBe(true)
     })
-    test('checkNum(): false', () => {
+    test('isNullObject(): true', () => {
         expect(
             theCheck.checkNum('aaa')
         ).toBe(false)
     })
-    test('checkNum(): false', () => {
+    test('isNullObject(): true', () => {
         expect(
-            theCheck.checkNum('22')
-        ).toBe(true)
+            theCheck.checkNum('aaa111')
+        ).toBe(false)
     })
 
 })
