@@ -8,7 +8,7 @@ export default defineUserConfig({
     "title": "Guoguo-utils",
     "description": "袁果锅开发工具类",
     port: '6688', //端口号
-    "dest": "public",
+    "dest": "docs",
     head: [
         [
             "link",
