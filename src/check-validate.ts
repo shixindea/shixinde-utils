@@ -2,6 +2,14 @@
  * 手机号校验
  */
 export const mobileCheck = (value: string) => /^[1][3,4,5,7,8][0-9]{9}$/.test(value)
+/**
+ * 类型判断字符是不是  空对象
+ * @param value 
+ * @returns 
+ */
+export function isNullObject(value: Object) {
+	return Object.keys(value).length === 0;
+}
 
 /**
  * 身份证校验
@@ -61,7 +69,7 @@ export const checkCapitalLetter = (data: string) => {
  * 判断是否是字母或数字
  * @param {Number || String} data  字符或数字
  */
-export const checkNumOrLetter = (data: string) => {
+export const checkNumOrLetter = (data: any): boolean => {
 	const reg = /^[0-9a-zA-Z]*$/g
 	return reg.test(data)
 
@@ -103,7 +111,7 @@ export const checkUrl = (url: string) => {
 }
 
 /**
- * 判断是浏览器内核
+ * 判断是浏览器内核*
  */
 export const checkBrowser = () => {
 	const u = navigator.userAgent;

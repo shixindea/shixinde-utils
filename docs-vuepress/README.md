@@ -1,6 +1,42 @@
-# Guoguo 工具类
+<!-- # Guoguo 工具类 -->
 
-ProjectName and Description
+<br />
+<br />
+<br />
+<br />
+
+<p align="center">
+  <a href="https://github.com/shixindea/shixinde-utils/">
+       <img src="./.vuepress/public/logo.png" alt="Logo" width="80" height="80">
+
+  </a>
+
+  <h3 align="center">Guoguo-utils</h3>
+  <p align="left" style="text-indent:2em">
+   欢迎各位开发者使用我的JavaScript个人工具类库！这个库集合了一系列精心设计的静态方法，旨在简化日常开发中的常见任务，如字符串处理、数组操作、日期格式化等。我致力于打造一个高效、易用且可扩展的工具集，希望能为您的项目开发带来便利。
+ </p>
+  <p align="left" style="text-indent:2em">
+  每一次的更新和迭代，都凝聚着我对代码质量的不懈追求和对编程技术的深入理解。我深知，没有最好，只有更好。因此，我将继续努力学习，不断优化和完善这个工具类库，以满足更多开发者的需求。
+ </p>
+
+期待您的反馈与建议，让我们携手共进，在 JavaScript 的海洋中探索更多可能！
+<a href="https://github.com/shixindea/shixinde-utils"><strong>探索本项目的文档 »</strong></a>
+<br />
+<br />
+<a href="https://shixindea.github.io/#/">进入 Guoguo-ui</a>
+·
+<a href="https://www.npmjs.com/settings/shixinde/packages">NPM查看Guoguo系列</a>
+·
+<a href="https://github.com/shixindea/shixinde-utils">查看 Demo</a>
+·
+<a href="https://github.com/shixindea/shixinde-utils/issues">报告 Bug</a>
+·
+<a href="https://github.com/shixindea/shixinde-utils/issues">提出新特性</a>
+
+</p>
+<br />
+<br />
+<br />
 
 <!-- PROJECT SHIELDS -->
 
@@ -14,139 +50,62 @@ ProjectName and Description
 <!-- PROJECT LOGO -->
 <br />
 
-<p align="center">
-  <a href="https://github.com/shixindea/shixinde-utils/">
-       <img src="./.vuepress/public/logo.png" alt="Logo" width="80" height="80">
-
-  </a>
-
-  <h3 align="center">"完美的"README模板</h3>
-  <p align="center">
-    一个"完美的"README模板去快速开始你的项目！
-    <br />
-    <a href="https://github.com/shixindea/shixinde-utils"><strong>探索本项目的文档 »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/shixindea/shixinde-utils">查看Demo</a>
-    ·
-    <a href="https://github.com/shixindea/shixinde-utils/issues">报告Bug</a>
-    ·
-    <a href="https://github.com/shixindea/shixinde-utils/issues">提出新特性</a>
-  </p>
-
-</p>
-
-本篇 README.md 面向开发者
-
 ## 目录
 
-- [上手指南](#上手指南)
-  - [开发前的配置要求](#开发前的配置要求)
-  - [安装步骤](#安装步骤)
-- [文件目录说明](#文件目录说明)
-- [开发的架构](#开发的架构)
-- [部署](#部署)
-- [使用到的框架](#使用到的框架)
-- [贡献者](#贡献者)
-  - [如何参与开源项目](#如何参与开源项目)
-- [版本控制](#版本控制)
+- [简介](#简介)
+- [安装步骤](#安装步骤)
+- [为什么选择Guoguo-utils工具类](#我们的优势)
+- [其他开源项目](#其他开源项目)
 - [作者](#作者)
-- [鸣谢](#鸣谢)
+- [版权说明](#版权说明)
 
-### 上手指南
+### 简介
 
-请将所有链接中的“shaojintian/Best_README_template”改为“your_github_name/your_repository”
+Guoguo-utils 是一个一致性、模块化、高性能的 JavaScript 实用工具库。
 
-###### 开发前的配置要求
+Guoguo-utils 遵循 MIT 开源协议发布，并且支持最新的运行环境。 查看各个构件版本的区别并选择一个适合你的版本。
 
-1. xxxxx x.x.x
-2. xxxxx x.x.x
 
 ###### **安装步骤**
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. 进入npm官网查看详细版本
+<a href="https://www.npmjs.com/package/@shixinde/utils?activeTab=versions"><strong>点进查看 »</strong></a>
 
 ```sh
-git clone https://github.com/shixindea/shixinde-utils.git
+npm i @shixinde/utils
+pnpm i @shixinde/utils
+
+npm i @shixinde/utils@版本号
 ```
 
-### 文件目录说明
+### 我们的优势
 
-eg:
+Guoguo-utils 通过降低 array、number、objects、string 等等的使用难度从而让 JavaScript 变得更简单。 Lodash 的模块化方法 非常适用于：
 
-```
-filetree
-├── ARCHITECTURE.md
-├── LICENSE.txt
-├── README.md
-├── /account/
-├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
-├── /static/
-├── /templates/
-├── useless.md
-└── /util/
+遍历 array、object 和 string
+对值进行操作和检测
+创建符合功能的函数
 
-```
 
-### 开发的架构
 
-请阅读[ARCHITECTURE.md](https://github.com/shixindea/shixinde-utils/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
+### 其他开源项目
 
-### 部署
+- [Vue3组件库 Guoguo-ui](https://shixindea.github.io/#/)
+- [Git提交规范 Guoguo-cz](@shixinde/guoguo-cz)
+- [JavaScript工具类 Guoguo-utils](https://shixindea.github.io/shixinde-utils/)
+- [vuepress快速模板 Guoguo-vuepress](https://www.npmjs.com/package/@shixinde/vuepress-theme-init)
 
-暂无
-
-### 使用到的框架
-
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
-
-### 贡献者
-
-请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
-
-#### 如何参与开源项目
-
-贡献使开源社区成为一个学习、激励和创造的绝佳场所。你所作的任何贡献都是**非常感谢**的。
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### 版本控制
-
-该项目使用 Git 进行版本管理。您可以在 repository 参看当前可用版本。
 
 ### 作者
 
-xxx@xxxx
+袁果锅@shixinde
 
-知乎:xxxx &ensp; qq:xxxxxx
-
-_您也可以在贡献者名单中参看所有参与该项目的开发者。_
+邮箱：2914310412@qq.com
 
 ### 版权说明
 
 该项目签署了 MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shixindea/shixinde-utils/blob/master/LICENSE.txt)
 
-### 鸣谢
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
 
 <!-- links -->
 

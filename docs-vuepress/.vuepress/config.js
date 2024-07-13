@@ -3,7 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { zhNavbar, enNavbar, } from './navbar/switch.js'
 import { zhSidebar, enSidebar, } from './sidebar/switch.js'
-
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 export default defineUserConfig({
     "title": "Guoguo-utils",
     "description": "袁果锅开发工具类",
@@ -60,6 +60,12 @@ export default defineUserConfig({
         }
 
     }),
+    plugins: [
+        searchProPlugin({
+            indexContent: true,
+            hotReload: true,
+        }),
+    ]
 
 
 })

@@ -1,23 +1,20 @@
 import * as theCheck from '../src/check-validate'
 
-
 // 测试 check-validate 中的函数
-describe('my-app:checkNum', () => {
-    test('checkNum(): true', () => {
+describe('my-app:isNullObject', () => {
+    test('idCardCheck(): true', () => {
         expect(
-            theCheck.checkNum('11111')
+            theCheck.checkUrl("www.baidu.com")
         ).toBe(true)
     })
-    test('checkNum(): false', () => {
+    test('idCardCheck(): true', () => {
         expect(
-            theCheck.checkNum('aaa')
-        ).toBe(false)
-    })
-    test('checkNum(): false', () => {
-        expect(
-            theCheck.checkNum('22')
+            theCheck.checkUrl("yuanguoguo")
         ).toBe(true)
     })
+  
+
+
 
 })
 

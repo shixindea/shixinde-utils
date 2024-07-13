@@ -1,8 +1,4 @@
 <template><div><h1 id="hello-vuepress" tabindex="-1"><a class="header-anchor" href="#hello-vuepress"><span>Hello VuePress</span></a></h1>
-<h2 id="hello-vuepress-1" tabindex="-1"><a class="header-anchor" href="#hello-vuepress-1"><span>Hello VuePress</span></a></h2>
-<h3 id="hello-vuepress-2" tabindex="-1"><a class="header-anchor" href="#hello-vuepress-2"><span>Hello VuePress</span></a></h3>
-<h4 id="hello-vuepress-3" tabindex="-1"><a class="header-anchor" href="#hello-vuepress-3"><span>Hello VuePress</span></a></h4>
-<h5 id="hello-vuepress-4" tabindex="-1"><a class="header-anchor" href="#hello-vuepress-4"><span>Hello VuePress</span></a></h5>
 <div class="language-typescript line-numbers-mode" data-highlighter="prismjs" data-ext="ts" data-title=".vuepress/config.ts"><pre v-pre class="language-typescript"><code><span class="line"><span class="token doc-comment comment">/**</span>
 <span class="line"> * Phone number verification</span>
 <span class="line"> */</span></span>

@@ -6,8 +6,8 @@ export const zhSidebar = {
             collapsible: false,
             children: [
                 {
-                    text: 'api',
-                    link: 'api'
+                    text: '快速上手',
+                    link: '快速上手'
                 },
                 {
                     text: '校验规则',
