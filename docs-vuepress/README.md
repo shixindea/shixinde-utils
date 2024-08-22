@@ -91,7 +91,7 @@ Guoguo-utils 通过降低 array、number、objects、string 等等的使用难�
 ### 其他开源项目
 
 - [Vue3组件库 Guoguo-ui](https://shixindea.github.io/#/)
-- [Git提交规范 Guoguo-cz](@shixinde/guoguo-cz)
+- [Git提交规范 Guoguo-cz](https://www.npmjs.com/package/@shixinde/guoguo-cz)
 - [JavaScript工具类 Guoguo-utils](https://shixindea.github.io/shixinde-utils/)
 - [vuepress快速模板 Guoguo-vuepress](https://www.npmjs.com/package/@shixinde/vuepress-theme-init)
 
